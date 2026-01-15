@@ -1,0 +1,18 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Shell scripts should always use LF
+*.sh text eol=lf
+
+# Windows batch files should use CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# YAML files should use LF
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# JavaScript/Node files should use LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
